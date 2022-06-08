@@ -53,7 +53,7 @@ export const REMOVE_BOOK = gql`
       _id
       username
       bookCount
-      savedbooks {
+      savedBooks {
           authors
           description
           bookId
